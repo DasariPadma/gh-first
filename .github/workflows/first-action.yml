@@ -5,4 +5,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: print good bye
-        run: print "good bye"
+        run: |
+              print "good morning"
+              print "good evening"
